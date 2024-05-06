@@ -43,11 +43,12 @@ export default function Home() {
         </a>
 
         <a
-          className="my-[10px] flex flex-row justify-center items-center group rounded-lg border border-transparent p-4 transition-colors border-gray-300 bg-black border-neutral-700 hover:shadow-xl hover:outline hover:outline-2 hover:outline-offset-2"          target="_blank"
+          href="https://lbvl.net/tournament-events"
+          className="cursor-pointer my-[10px] flex flex-row justify-center items-center group rounded-lg border border-transparent p-4 transition-colors border-gray-300 bg-black border-neutral-700 hover:shadow-xl hover:outline hover:outline-2 hover:outline-offset-2"          target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`sm:text-[15px] md:text-[20px] font-semibold flex flex-row justify-center items-center w-full`}>
-            <GrTrophy className={"mr-[10px]"}/> Tournaments (Coming Soon!)
+            <GrTrophy className={"mr-[10px]"}/> Tournaments (REGISTRATION OPEN!)
           </h2>
         </a>
 
